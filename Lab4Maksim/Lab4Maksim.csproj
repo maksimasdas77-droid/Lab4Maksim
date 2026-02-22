@@ -47,7 +47,7 @@
     <Compile Include="Exercises\Ex2.cs" />
     <Compile Include="Exercises\Ex3.cs" />
     <Compile Include="Menu\menu.cs" />
-    <Compile Include="Utis.cs" />
+    <Compile Include="Utills\Utis.cs" />
     <Compile Include="input\readclas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
