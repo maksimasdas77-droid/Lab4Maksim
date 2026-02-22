@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercises\Ex1.cs" />
+    <Compile Include="Exercises\Ex2.cs" />
+    <Compile Include="Exercises\Ex3.cs" />
+    <Compile Include="Menu\menu.cs" />
     <Compile Include="Utis.cs" />
-    <Compile Include="readclas.cs" />
+    <Compile Include="input\readclas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
