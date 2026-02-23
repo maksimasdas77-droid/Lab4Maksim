@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Lab4Maksim.Ex4;
 
 namespace Lab4Maksim
 {
@@ -56,6 +57,14 @@ namespace Lab4Maksim
                 return false;
             }
             return true;
+        }
+
+        public static void Ex4temp()
+        {
+            Console.Clear();
+            Console.WriteLine("Вот текст из файла который я заранее создал делая работу\n");
+            string defaultPath = @"D:\учеба\БГУИР\ОПЯС#\Lab4Maksim\Hello.txt";
+            FileDetailsReader.ReadFile(defaultPath);
         }
     }
 }

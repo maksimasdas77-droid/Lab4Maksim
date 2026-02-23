@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Lab4Maksim.Ex4;
 
 namespace Lab4Maksim
 {
 
     internal class Program
     {
+ 
+
         static void Main(string[] args)
         {
             bool run = true;
@@ -32,6 +35,16 @@ namespace Lab4Maksim
                         break;
                         case 3:
                         Ex3.exercise3();
+                        Console.ReadLine();
+                        break;
+                        case 4:
+                        Utis.Ex4temp();
+                        //string defaultPath = @"D:\учеба\БГУИР\ОПЯС#\Lab4Maksim\Hello.txt";
+                        //FileDetailsReader.ReadFile(defaultPath);
+                        Console.ReadLine();
+                        break;
+                        case 5:
+                        Ex5.MatrixMultiply();
                         Console.ReadLine();
                         break;
                     default:
