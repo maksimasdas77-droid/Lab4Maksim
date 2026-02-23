@@ -11,6 +11,20 @@ namespace Lab4Maksim
     {
         internal class FileDetailsReader
         {
+            public static void RestreamFile()
+            {
+                string fileName = @"D:\учеба\БГУИР\ОПЯС#\Lab4Maksim\Hello.txt";
+
+                Console.Write("Введите новый текст для перезаписи файла: ");
+                string newContent = Console.ReadLine();
+
+                // Перезаписываем файл полностью
+                File.WriteAllText(fileName, newContent, Encoding.UTF8);
+
+                Console.WriteLine("Файл успешно перезаписан!");
+            }
+
+
             public static void ReadFile(string fileName)
             {
                 FileStream fs = new FileStream(fileName, FileMode.Open, FileAccess.Read);
@@ -54,5 +68,5 @@ namespace Lab4Maksim
             }
         }
     }
-
 }
+

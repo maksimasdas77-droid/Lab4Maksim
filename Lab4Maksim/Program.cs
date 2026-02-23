@@ -47,6 +47,10 @@ namespace Lab4Maksim
                         Ex5.MatrixMultiply();
                         Console.ReadLine();
                         break;
+                        case 6:
+                        Ex4.FileDetailsReader.RestreamFile();
+                        Console.ReadLine();
+                        break;
                     default:
                         Console.WriteLine("Нет такого пункта меню");
                         Console.ReadLine();
