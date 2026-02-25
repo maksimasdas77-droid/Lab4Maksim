@@ -11,6 +11,14 @@ namespace Lab4Maksim
     {
         internal class FileDetailsReader
         {
+
+            public static void Startmas(string[] args)
+            {
+                string fileName = @"D:\учеба\БГУИР\ОПЯС#\Lab4Maksim\Hello.txt";
+                File.WriteAllLines(fileName, args);
+                Console.WriteLine("Аргументы сохранены в файл input.txt");
+                Console.ReadLine();
+            }
             public static void RestreamFile()
             {
                 string fileName = @"D:\учеба\БГУИР\ОПЯС#\Lab4Maksim\Hello.txt";

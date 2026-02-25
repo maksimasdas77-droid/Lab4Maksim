@@ -10,13 +10,22 @@ namespace Lab4Maksim
 
     internal class Program
     {
- 
-
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
-
-            //if (strlen.string[] args) //попробовать передать значение из консоли при  запуске программы в нее, и она перезаписывает файл
-            bool run = true;
+            if (args.Length == 0)
+            {
+                Console.WriteLine("Аргументы не были переданы при запуске.");
+            }
+            else
+            {
+                Console.WriteLine("Аргументы получены.");
+            }
+            if (args.Length > 0) 
+            {
+                FileDetailsReader.Startmas(args);
+            }
+            Console.ReadLine();
+                bool run = true;
             while (run)
             {
                 Menu.menu.Show();
