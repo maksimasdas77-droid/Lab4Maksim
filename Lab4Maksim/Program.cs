@@ -14,6 +14,8 @@ namespace Lab4Maksim
 
         static void Main(string[] args)
         {
+
+            //if (strlen.string[] args) //попробовать передать значение из консоли при  запуске программы в нее, и она перезаписывает файл
             bool run = true;
             while (run)
             {
